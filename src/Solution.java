@@ -12,10 +12,18 @@
              int integer1 = 47;
              int integer2 = 13;
              int remainder = integer1 % integer2;
-             float fraction = ( 47 / 13f);
+
+             float a = ( integer1 / integer2);
+             float c = ( 47 / 13f);
+
+             double b = ( integer1 / integer2);
+             double d = ( 47 / 13);
+             double e = ( 47 / 13f);
              int result = integer1 / integer2;
 
-             System.out.println("В результате деления двух переменных , integer1 на integer2, выходит "+ result+ " и "+ remainder+ " в остатке . Или "+fraction );
+             System.out.println("В результате деления двух переменных , "
+                     + "integer1 на integer2, выходит "+ result+ " и "+ remainder+ " в остатке ." +
+                     " Или a="+a + " или b="+ b +" или c="+ c +" или d=" + d+" или e="+e );
 
 
                 }
