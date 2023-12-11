@@ -13,7 +13,7 @@
              int integer2 = 13;
              int remainder = integer1 % integer2;
 
-             float a = ( integer1 / integer2);
+             float a = (float)( integer1 / integer2);
              float c = ( 47 / 13f);
 
              double b = ( integer1 / integer2);
@@ -22,8 +22,12 @@
              int result = integer1 / integer2;
 
              System.out.println("В результате деления двух переменных , "
-                     + "integer1 на integer2, выходит "+ result+ " и "+ remainder+ " в остатке ." +
-                     " Или a="+a + " или b="+ b +" или c="+ c +" или d=" + d+" или e="+e );
+                     + "integer1 на integer2, выходит "+ result+ " и "+ remainder+ " в остатке ." );
+             System.out.println(  " Или a="+a );
+             System.out.println(" или b="+ b);
+             System.out.println(" или c="+ c);
+             System.out.println(" или d=" + d);
+             System.out.println(" или e="+e );
 
 
                 }
