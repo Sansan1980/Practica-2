@@ -11,13 +11,15 @@
              */
              int integer1 = 47;
              int integer2 = 13;
+             double fractionalNumber1 = integer1 + 0.0;
+             double fractionalNumber2 = integer2 + 0.0;
              int remainder = integer1 % integer2;
 
-             float a = (float)( integer1 / integer2);
+             float a = ( (float) integer1 / integer2);
              float c = ( 47 / 13f);
 
-             double b = ( integer1 / integer2);
-             double d = ( 47 / 13);
+             double b = ( (float)integer1 / integer2);
+             double d = 47.0 / 13.0;
              double e = ( 47 / 13f);
              int result = integer1 / integer2;
 
@@ -28,6 +30,8 @@
              System.out.println(" или c="+ c);
              System.out.println(" или d=" + d);
              System.out.println(" или e="+e );
+                System.out.println(fractionalNumber1 );
+                System.out.println(fractionalNumber2 );
 
 
                 }
